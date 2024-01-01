@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="test_lnsite.css">
+    <title>LukeNguyenTS_Cameras</title>
+    <style>
+        img {width: 500px;}
+        .text-container {max-width: 500px;}
+    </style>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <header>
+	<marquee direction="right"; scrollamount="14.5">Welcome to my website, this is just a test site I made for fun, hope you enjoy!</marquee>
+  </header> 
+    <div class="left-buttons-container">
+        <button onclick="myFunction()">Dark Mode</button>
+        <button><a href="index.html">HomePage</a></button>
+    </div>
+	<h1>Luke Nguyen Test Website For Fun</h1>
+        <h2>Cameras</h2>
+
+<!--Image 1-->
+<div class="container-group">
+    <div class="container container-left">
+        <div class="image-link">
+            <a href="https://www.bhphotovideo.com/c/product/945054-REG/canon_8595b003_eos_dig_rebel_t5i.html/specs">
+                <img src="canon_8595b016aa_eos_rebel_t5i_dslr_945054.jpg"></a></div>
+        <div class="text-container">
+            <h2>Canon T5i (April 2013)</h2><h3>This is the camera that I use for "high quality" YouTube videos and school events.</h3></div>
+    </div>
+
+<!--Image 2-->
+    <div class="container container-middle">
+        <div class="image-link">
+            <a href="https://www.dpreview.com/products/fujifilm/compacts/fuji_finepixs5200z/specifications">
+                <img src="1024px-Fujifilm_FinePix_S5600.jpg"></a></div>
+        <div class="text-container">
+            <h2>Fujifilm Finepix S5200</h2><h3>This is an old camera that I used, it takes good photos, but the videos are in 480p. I still have this $300-ish camera in my room.</h3></div>
+    </div>
+
+<!--Image 3-->
+    <div class="container container-right">
+        <div class="image-link">
+            <a href="https://www.bhphotovideo.com/c/product/1624226-REG/sony_ilme_fx3_fx3_cinema_camera.html/specs">
+                <img src="41gkGzOipsL._AC_UF894,1000_QL80_.jpg"></a></div>
+        <div class="text-container">
+            <h2>Sony FX3 (February 2021)</h2><h3>This is a modern cool camera that I saw online, many YouTubers shout it out. I don't have it and it costs nearly $4,000. </h3></div>
+    </div>
+</div>
+
+<!--Image 4-->
+<div class="container-group">
+    <div class="container container-left">
+        <div class="image-link">
+            <a href="https://www.dpreview.com/products/sony/compacts/sony_dsch70/specifications">
+                <img src="ZURBE.JPG"></a></div>
+        <div class="text-container">
+            <h2>Sony DSC-H70 (January 2011)</h2><h3>I got this camera from my aunt. I used this camera to hide in my pocket from time to time. Despite being from 2011, the pictures it takes are pretty decent as well as the 720p video.</h3></div>
+    </div>
+
+<!--Image 5-->
+    <div class="container container-middle">
+        <div class="image-link">
+            <a href="https://www.panasonic.com/mea/en/consumer/cameras-camcorders/camcorders/hc-vx1gc.specs.html">
+                <img src="81aIPIIcarL.jpg"></a></div>
+        <div class="text-container">
+            <h2>Panasonic HC-VX1 (January 2018)</h2><h3>This is a random camcorder I found online, I wish I had this one, I use a Polaroid camcorder at home and it sucks. This camera costs nearly $800 and shoots great 4K footage.</h3></div>
+    </div>
+
+<!--Image 6-->
+    <div class="container container-right">
+        <div class="image-link">
+            <a href="https://www.insta360.com/product/insta360-onex2#onex2_specs">
+                <img src="616m-jvAybL.jpg"></a></div>
+        <div class="text-container">
+            <h2>Insta 360 One X2</h2><h3>Insta 360 is a camera that YouTubers sponsor a lot. It's a small 360 camera that records from every angle and the quality of it is pretty good. It's a cool device, but I'm not sure if I want one.</h3></div>
+    </div>
+</div>
+
+	<script>
+		function myFunction() {var element = document.body; element.classList.toggle("dark-mode");}
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {mybutton.style.display = "block";}
+        else {mybutton.style.display = "none";}}
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+	</script>
+</body>
+
+</html>

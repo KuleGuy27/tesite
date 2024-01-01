@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="test_lnsite.css"> 
+    <title>LukeNguyenTS_AboutMe</title>
+</head>
+<body>
+  <header>
+	<marquee direction="right"; scrollamount="14.5">Welcome to my website, this is just a test site I made for fun, hope you enjoy!</marquee>
+</header>
+    <div class="left-buttons-container">
+        <button onclick="myFunction()">Dark Mode</button>
+        <button onclick="changeImage()" class="chg-img-button">Change Image</button>
+    </div>
+	<h1>Luke Nguyen Test Website For Fun</h1>
+    <img id="image" src="DSC06424.JPG" alt="Image 1">
+		<div class="biotext-container">
+            <a href="test website_testvideo.html"><p>Hello and welcome to my website!</p></a>
+            <p>This site is made by me, <i>Luke Nguyen, </i>I was born in 2007.</p>
+            <p>I am making this website here for learning purposes as I am a student who wants to learn how to build and upload websites to the web.</p>
+            <p>If you want to know more about me, creep, here are some things that I like or photos I've taken.</p>
+            <ol>
+            <li><a href="test website_cameras.html">Cameras</a></li>
+            <li><a href="test website_e&bikes.html">Bicycles and Electric Ones</a></li>
+            <li><a href="test website_motorcycles.html">Motorcycles</a></li>
+            <li><a href="test website_photos_taken.html">Photos I've taken</a></li>
+            <br>
+            <p><a href="test website_others.html">Other Projects/Websites</a></p>
+            </ol>
+            
+      </div>
+            
+
+	
+    <div class="mobile-bottom">
+        <div style="position: absolute; bottom: 0px;">
+            This website was created on the 28th of September 2023.
+        </div>     
+    </div>
+	
+    <script>
+    function myFunction() {var element = document.body; element.classList.toggle("dark-mode");}
+        var currentImage = 1;
+        function changeImage() {var imageElement = document.getElementById('image');  
+            if (currentImage === 1) {imageElement.src = '20230824_102818.jpg'; imageElement.alt = 'Image 2'; currentImage = 2;}
+			else {imageElement.src = 'DSC06424.JPG'; imageElement.alt = 'Image 1'; currentImage = 1;}}
+    </script>
+</body>
+
+</html>

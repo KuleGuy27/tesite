@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="test_lnsite.css">
+    <title>LukeNguyenTS_Motorcycles</title>
+    <style>
+        img {width: 500px;}
+        .text-container {max-width: 500px;}
+    </style>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <header>
+	<marquee direction="right"; scrollamount="14.5">Welcome to my website, this is just a test site I made for fun, hope you enjoy!</marquee>
+    </header>
+    <div class="left-buttons-container">
+        <button onclick="myFunction()">Dark Mode</button>
+        <button><a href="index.html">HomePage</a></button>
+    </div>
+	<h1>Luke Nguyen Test Website For Fun</h1>
+    <h2>Cool Motorcyles</h2>
+
+
+<!--Image 1-->
+<div class="container-group">
+    <div class="container container-left">
+        <div class="image-link">
+            <a href="https://www.vespa.com/us_EN/models/elettrica/">
+                <img src="vespa-ellectrica.jpg"></a></div>
+        <div class="text-container">
+            <h2>Vespa GTS 300</h2><h3>This scooter (yes, scooters are a type of motorcycle) is an electric rendition of the classic Vespa. It costs $7,999 USD, goes 45 mph, has 124 miles of range, and takes 4 hours for a full charge.</h4></div>
+    </div>
+
+<!--Image 2-->
+    <div class="container container-middle">
+        <div class="image-link">
+            <a href="https://cscmotorcycles.com/2023-csc-monterey-electric-scooter/">
+                <img src="CSC_Monterey.jpg"></a></div>
+        <div class="text-container">
+            <h2>CSC Monterey</h2><h3>This scooter is an electric rendition of the Honda Super Cub, the most sold motor vehicle in the world. It costs $2,395 USD, goes 32 mph, has 20-60 miles of range, and takes 7 hours for a full charge.</h3></div>
+    </div>
+
+<!--Image 3-->
+    <div class="container container-right">
+        <div class="image-link">
+            <a href="https://cscmotorcycles.com/rx1e-electric-motorcycle/">
+                <img src="IMG_9962-Edit__99112.jpg"></a></div>
+        <div class="text-container">
+            <h2>CSC RX1E</h2><h3>This motorcycle is a great "budget" commuter vehicle if you want to cruise around your city. It costs $7,988 USD, goes 80 mph, has 112 miles of range, and takes 6 hours for a full charge.</h3></div>
+    </div>
+</div>
+
+<!--Image 4-->
+<div class="container-group">
+    <div class="container container-left">
+        <div class="image-link">
+            <a href="https://powersports.honda.com/motorcycle/minimoto/super-cub-c125">
+                <img src="2024-super-cub-c125-abs-gallery-01-750x750.jpg"></a></div>
+        <div class="text-container">
+            <h2>Honda Super Cub C125 2023</h2><h3>This is the most sold motor vehicle in the world, this is the 125cc version of it. It costs $3,849 USD, goes 65 mph, has 150 miles of range, and it uses 1.0 gallon fuel tank to run.</h3></div>
+    </div>
+
+<!--Image 5-->
+    <div class="container container-middle">
+        <div class="image-link">
+            <a href="https://sondors.com/collections/metacycle">
+                <img src="META-Testimonials-D_jpg_954002a9-6a0a-4161-90f1-c487c8f9182b.jpg"></a></div>
+        <div class="text-container">
+            <h2>Sondors Metacycle</h2><h3>I found this moto on YouTube. The design is cool/simplistic and it goes pretty fast. It costs $6,500 USD, goes 80 mph, has 80 miles of range, and takes 5.5 hours for a full charge.</h3></div>
+    </div>
+
+<!--Image 6-->
+    <div class="container container-right">
+        <div class="image-link">
+            <a href="https://zeromotorcycles.com/model/zero-dsrx">
+                <img src="650295d4ea5330434104ccfc.jpg"></a></div>
+        <div class="text-container">
+            <h2>Zero DSRX</h2><h3>I've never heard of this before but it's because talked about a lot. I guess it's because of the price and specs. The moto costs $19,995 USD, goes 112 mph, has 180 miles of range, and takes 1 hour for a full charge.</h3></div>
+    </div>
+</div>
+
+	<script>
+		function myFunction() {var element = document.body; element.classList.toggle("dark-mode");}
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {mybutton.style.display = "block";}
+        else {mybutton.style.display = "none";}}
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+	</script>
+</body>
+
+</html>

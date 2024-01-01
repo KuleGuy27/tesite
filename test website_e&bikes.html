@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="test_lnsite.css">
+    <title>LukeNguyenTS_Bikes</title>
+    <style>
+        img {width: 500px;}
+        .text-container {max-width: 500px;}
+    </style>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <header>
+	<marquee direction="right"; scrollamount="14.5">Welcome to my website, this is just a test site I made for fun, hope you enjoy!</marquee>
+    </header> 
+    <div class="left-buttons-container">
+        <button onclick="myFunction()">Dark Mode</button>
+        <button><a href="index.html">HomePage</a></button>
+    </div>
+	<h1>Luke Nguyen Test Website For Fun</h1>
+    <h2>Bicycles and Electric Ones</h2>
+
+<!--Image 1-->
+<div class="container-group">
+    <div class="container container-left">
+        <div class="image-link">
+            <a href="https://www.costco.com/infinity-boss-three--unisex-hybrid-bike-.product.100810733.html">
+                <img src="Infinity Black Bike, 27 wheel size.jpg"></a></div>
+        <div class="text-container">
+            <h2>Infinity Boss Three</h2><h3>I got this bike from my other aunt's house, since no one uses it, she gave it to me. I use this bike pretty regularly for leisure or to go to school, the bike is great!</h3></div>
+    </div>
+
+<!--Image 2-->
+    <div class="container container-middle">
+        <div class="image-link">
+            <a href="https://www.walmart.com/ip/Mongoose-24-Ledge-2-1-Girls-Mountain-Bike-Pink/26999363">
+                <img src="20230402_185938.jpg"></a></div>
+        <div class="text-container">
+            <h2>Mongoose Ledge 2.1 Pink</h2><h3>I got this bike from my aunt's house. 1st bike I got introduced to. I use this bike once in a blue moon, it's for short people and I don't like the seat.</h3></div>
+    </div>
+
+<!--Image 3-->
+    <div class="container container-right">
+        <div class="image-link">
+            <a href="https://www.amazon.com/ZNH-Electric-Mountain-Removable-Commuter/dp/B0BRZ2BRY5">
+                <img src="20230904_165119.jpg"></a></div>
+        <div class="text-container">
+            <h2>AM-ZNH-02-26 Ebike</h2><h3>This is my first ebike I ever got. I use this regularly on roads to go to Walmart or trail to school. It's kinda fast class 2 ebike but the range is not as long.</h3></div>
+    </div>
+</div>
+
+<!--Image 4-->
+<div class="container-group">
+    <div class="container container-left">
+        <div class="image-link">
+            <a href="https://www.amazon.com/PHILODO-Electric-Bicycles-21-Speed-Hydraulic/dp/B0BK1T9PHX">
+                <img src="H8_Philodo_Electric_Bike_Front_Left.jpg"></a></div>
+        <div class="text-container">
+            <h2>Philodo H8 Dual Motor Fat Tire Ebike</h2><h3>I might buy this, it looks cool and powerful (35MPH). It even has an LCD screen and a phone holder! This is the 1st dual motor ebike I found on YouTube. I'm not sure if it's legal to ride one on the road though...</h3></div>
+    </div>
+
+<!--Image 5-->
+    <div class="container container-middle">
+        <div class="image-link">
+            <a href="https://asyncbike.com/products/async-a1">
+                <img src="async-a1-electric-bike-designboom-02.jpg"></a></div>
+        <div class="text-container">
+            <h2>Async A1 Pro</h2><h3>I found this futuristic looking ebike because of TailHappyTV on YouTube. It's the same as the Philodo at 35MPH, but the range is 150 miles!!! It has a big battery, one motor (jeez), a throttle, and an LCD screen.</h3></div>
+    </div>
+
+<!--Image 6-->
+    <div class="container container-right">
+        <div class="image-link">
+            <a href="https://www.segway.com/segway-emoped-c80">
+                <img src="c80A_.131copy.jpg"></a></div>
+        <div class="text-container">
+            <h2>Segway Emoped C80</h2><h3>This cool looking ebike looks more like a moped, but it has pedals to make it legally an ebike. The bike looks great but is slow. It's slow at climbing hills and actually goes 19 instead of the marketed 20mph. This "ebike" is more of a mobility scooter and it's something I don't take seriously.</h3></div>
+    </div>
+</div>
+
+	<script>
+		function myFunction() {var element = document.body; element.classList.toggle("dark-mode");}
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {mybutton.style.display = "block";}
+        else {mybutton.style.display = "none";}}
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+	</script>
+</body>
+
+</html>
